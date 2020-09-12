@@ -6,7 +6,7 @@ import click
 import pyblish.api
 
 # Import local modules
-import pyblish_photoshop
+from pyblish_photoshop import app
 
 
 @click.group()
@@ -19,10 +19,10 @@ def cli():
 @click.option("package", "--register-gui",
               type=click.Choice(["pyblish_qml", "pyblish_lite"]),
               default="pyblish_lite")
-def app(package):
+def pyblish_gui(package):
     pyblish.api.register_gui(package)
-    pyblish_photoshop.setup()
-    pyblish_photoshop.show()
+    app.setup()
+    app.show()
 
 
 @cli.command("install", help="Install pyblish menu into Photoshop.")

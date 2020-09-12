@@ -49,6 +49,6 @@ setup(
         "click>=7.0"
     ],
     entry_points={
-        "console_scripts": ["pyblish-photoshop = pyblish_photoshop.app:cli"]
+        "console_scripts": ["pyblish-photoshop = pyblish_photoshop.cli:cli"]
     },
 )
