@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://imgur.com/lahtkVx.png" alt="logo"></a>
+<img src="https://imgur.com/kn8wOQj.png" alt="logo"></a>
 </p>
 
 pyblish-photoshop
