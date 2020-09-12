@@ -1,3 +1,4 @@
+# Import third-party modules
 import pyblish.api
 
 
@@ -17,6 +18,6 @@ class CollectPhotoshopCurrentFile(pyblish.api.ContextPlugin):
         app = Application()
 
         current_file = app.activeDocument.fullName
-        self.log.info(current_file)
+        self.log.info("Find current working file %s", current_file)
         normalised = os.path.normpath(current_file)
         context.set_data('currentFile', value=normalised)

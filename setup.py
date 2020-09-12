@@ -1,8 +1,10 @@
 """This setup script packages pyblish-photoshop."""
 
+# Import built-in modules
 import importlib
 import os
 
+# Import third-party modules
 from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
@@ -35,7 +37,7 @@ setup(
     license="LGPL",
     author="Abstract Factory and Contributors",
     author_email="marcus@abstractfactory.io",
-    description="Maya Pyblish package",
+    description="Pyblish integration for Adobe Photoshop",
     long_description=long_description,
     long_description_content_type="text/markdown",
     zip_safe=False,
@@ -43,7 +45,7 @@ setup(
     package_data={"pyblish_photoshop": ["plugins/*.py"]},
     install_requires=[
         "pyblish-base>=1.5.3"
-        "pyblish_qml",
+        "pyblish_lite",
         "click>=7.0"
     ],
     entry_points={
