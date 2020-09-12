@@ -7,6 +7,7 @@ pyblish-photoshop
 Pyblish integration for Adobe Photoshop cs6-2020 (Window only).
 
 What is included?
+----------------
 A set of common plug-ins and functions shared across other integrations - such as getting the current working file. It also visually integrates Pyblish into the File-menu for easy access.
 - Common [plug-ins](https://github.com/pyblish/pyblish-photoshop/tree/master/pyblish_photoshop/plugins)
 - Common [command line](https://github.com/pyblish/pyblish-photoshop/blob/master/pyblish_photoshop/cli.py)
