@@ -52,4 +52,4 @@ Launch UI
 ---------
 In Photoshop go to the `Filter` menu and you will see the `pyblish` menu.
 
-<img src="https://imgur.com/LhrBTVU.png" alt="UI"></a>
+<img src="https://imgur.com/nJ5qtkf.gif" alt="UI"></a>

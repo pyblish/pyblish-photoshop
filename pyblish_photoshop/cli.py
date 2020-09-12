@@ -28,8 +28,7 @@ def pyblish_gui(package):
 @cli.command("install", help="Install pyblish menu into Photoshop.")
 @click.option("install_folder", "--app-dir", type=click.Path(exists=True))
 def install_script(install_folder):
-    template = """
-/*
+    template = """/*
 // BEGIN__HARVEST_EXCEPTION_ZSTRING
 
 <javascriptresource>
