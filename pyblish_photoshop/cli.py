@@ -17,7 +17,6 @@ def cli():
 @cli.command("gui", help='Show Pyblish GUI, Default is to use '
                          '"pyblish_lite".')
 @click.option("package", "--register-gui",
-              type=click.Choice(["pyblish_qml", "pyblish_lite"]),
               default="pyblish_lite")
 def pyblish_gui(package):
     pyblish.api.register_gui(package)
